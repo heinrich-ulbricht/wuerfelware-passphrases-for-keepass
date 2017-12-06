@@ -16,9 +16,9 @@ namespace PwGenWuerfelware.Forms
         public FormConfiguration(ConfigurationModel config): this()
         {
             Configuration = config;
+            numericUpDown1.Value = Configuration.WordCount;
             numericUpDown1.Minimum = Constants.MinWordsPerPassphrase;
             numericUpDown1.Maximum = Constants.MaxWordsPerPassphrase;
-            numericUpDown1.Value = Configuration.WordCount;
         }
 
         private void numericUpDown1_ValueChanged(object sender, System.EventArgs e)
