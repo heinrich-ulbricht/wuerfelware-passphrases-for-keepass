@@ -1,4 +1,5 @@
-# Würfelware - Passphrases for KeePass
+
+Su# Würfelware - Passphrases for KeePass
 A KeePass password generator. Generates passphrases within KeePass. In tribute to https://xkcd.com/936/.
 
 # What does Würfelware do?
@@ -33,3 +34,20 @@ Only one word list is supported - it's in the *wuerfelware.txt* file. You can ch
 Whitespaces and line breaks are used as word delimiters, so a text file containing *correct battery horse staple* will be read as a word list containing 4 words.
 
 Any numbers (like *12435*) in this file will be ignored which is handy if you use an existing word list (like the initial *wuerfelware.txt*). Just leave the numbers in, they do no harm.
+
+# Supported Languages
+The plugin language is English.
+
+The initial word list *wuerfelware.txt* contains German words. You can replace the file content with words in any language.
+
+# Word lists
+The initial word list *wuerfelware.txt* was downloaded from here:
+http://world.std.com/~reinhold/diceware_german.txt
+"A German word list provided by Benjamin Tenne under the terms of the GNU General Public License."
+
+I did not alter it, just renamed it to make the file name more generic.
+
+There are more files in different languages available, you can get an overview here:
+http://world.std.com/~reinhold/diceware.html
+
+Of cource, many more word lists can be found. A good keyword to google for is *Diceware*.
