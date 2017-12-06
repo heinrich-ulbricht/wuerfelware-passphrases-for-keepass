@@ -8,12 +8,12 @@ The words used to make passphrases are taken from a text file. Words are randoml
 
 The resulting passphrases look like those:
 
-irin schade viper pass sollst
-beraet fauna schere sampan herauf
-ans teller gerben droben lullt
-bau drehen flakon gnu gewann
-kohle kasack unten festes kardex
-sechse dose adlig pokal lage
+* irin schade viper pass sollst
+* beraet fauna schere sampan herauf
+* ans teller gerben droben lullt
+* bau drehen flakon gnu gewann
+* kohle kasack unten festes kardex
+* sechse dose adlig pokal lage
 
 Hard to guess but easy to memorize or type.
 
