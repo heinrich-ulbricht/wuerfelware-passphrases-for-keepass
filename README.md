@@ -1,2 +1,2 @@
-# wuerfelware-passphrases-for-keepass
-Würfelware - Passphrases for Keepass
+# Würfelware - Passphrases for Keepass
+A Keepass password generator. Generates passphrases. In tribute to https://xkcd.com/936/.
