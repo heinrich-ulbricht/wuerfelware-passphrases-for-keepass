@@ -4,7 +4,7 @@ A KeePass password generator. Generates passphrases within KeePass. In tribute t
 # What does Würfelware do?
 It registers as a password generator in KeePass and generates passphrases. Passphrases are passwords consisting of multiple words, thus they are "phrases".
 
-The words used to make passphrases are taken from a text file. Words are randomly chosen. The number of words can be configured. 
+The words used to make passphrases are taken from a text file. Words are randomly chosen. The number of words per phrase can be configured. 
 
 The resulting passphrases look like those:
 
