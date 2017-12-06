@@ -32,4 +32,4 @@ Only one word list is supported - it's in the *wuerfelware.txt* file. You can ch
 
 Whitespaces and line breaks are used as word delimiters, so *correct battery horse staple* will be read as a word list containing 4 words.
 
-Any numbers in this list will be ignored which is handy if you copy an existing word list (like the initial *wuerfelware.txt*). Just leave the numbers in, they do no harm.
+Any numbers in this file will be ignored which is handy if you copy an existing word list (like the initial *wuerfelware.txt*). Just leave the numbers in, they do no harm.
