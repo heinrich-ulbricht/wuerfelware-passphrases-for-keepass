@@ -42,8 +42,7 @@ The initial word list *wuerfelware.txt* contains German words. You can replace t
 
 # Word lists
 The initial word list *wuerfelware.txt* was downloaded from here:
-http://world.std.com/~reinhold/diceware_german.txt
-"A German word list provided by Benjamin Tenne under the terms of the GNU General Public License."
+http://world.std.com/~reinhold/diceware_german.txt (*A German word list provided by Benjamin Tenne under the terms of the GNU General Public License.*)
 
 I did not alter it, just renamed it to make the file name more generic.
 
