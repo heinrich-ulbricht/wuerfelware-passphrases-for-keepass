@@ -1,5 +1,4 @@
-
-Su# Würfelware - Passphrases for KeePass
+# Würfelware - Passphrases for KeePass
 A KeePass password generator. Generates passphrases within KeePass. In tribute to https://xkcd.com/936/.
 
 # What does Würfelware do?
