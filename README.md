@@ -18,9 +18,14 @@ The resulting passphrases look like those:
 Hard to guess but easy to memorize or type.
 
 # Installation
-Copy the plugin files to the KeePass plugins folder. I'd recommend creating a sub-folder. So the folder structure will look like *KeePass\Plugins\Wuerfelware*.
+Download the latest [release](https://github.com/heinrich-ulbricht/wuerfelware-passphrases-for-keepass/releases/latest). 
 
-Plugin files that need to be copied to *KeePass\Plugins\Wuerfelware*:
+Then:
+1. unzip the files
+1. create a (new) sub-folder of the KeePass plugins folder (e.g. *KeePass\Plugins\Wuerfelware* - note: you have to create the sub-folder *Wuerfelware* when installing the plugin for the first time)
+1. copy the files to the newly created folder
+
+Plugin files that **must** be copied to *KeePass\Plugins\Wuerfelware* are:
 * PwGenWuerfelware.dll
 * Newtonsoft.Json.dll
 * wuerfelware.txt
