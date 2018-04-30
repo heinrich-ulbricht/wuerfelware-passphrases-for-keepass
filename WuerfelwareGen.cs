@@ -92,9 +92,33 @@ namespace PwGenWuerfelware
         /// <returns></returns>
         private string getWuerfelwareFilePath()
         {
-            // CodeBase path starts with file:/
-            // tbd: possible cause for error if path contains "#" - but we'll see this easily in the configuration UI and fix it if somebody trips over this
-            var assemblyFolder = new Uri(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().CodeBase)).LocalPath;
+            /** 
+             * Sample windows path: 
+             *   CodeBase path:     file:\C:\User Files\Portable\KeePass\Plugins\Wuerfelware
+             *   As Uri:            file:///C:/User Files/Portable/KeePass/Plugins/Wuerfelware
+             *   Uri.LocalPath:     C:\User Files\Portable\KeePass\Plugins\Wuerfelware
+             *sample linux path (Keepass with Mono): 
+             *   CodeBase path: file:/home/heinrich/Keepass/Plugins/Wuerfelware
+             */
+            var path = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().CodeBase);
+            string assemblyFolder;
+            try
+            {
+                // tbd: possible cause for error if path contains "#" - but we'll see this easily in the configuration UI and fix it if somebody trips over this
+                assemblyFolder = new Uri(path).LocalPath;
+            } catch (UriFormatException)
+            {
+                // oh well - maybe somebody runs us on Linux?
+                if (path.StartsWith("file:/"))
+                {
+                    // ok we'll try to handle this
+                    assemblyFolder = path.Substring("file:".Length);
+                } else
+                {
+                    // nope, this is something we don't recognize - let's fail
+                    throw;
+                }
+            }
             return Path.Combine(assemblyFolder, Constants.WuerfelwareFilename);
         }
 
