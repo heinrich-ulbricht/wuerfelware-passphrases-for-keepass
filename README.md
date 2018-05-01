@@ -53,4 +53,4 @@ I did not alter it, just renamed it to make the file name more generic.
 There are more files in different languages available, you can get an overview here:
 http://world.std.com/~reinhold/diceware.html
 
-Of cource, many more word lists can be found. A good keyword to google for is *Diceware*.
+Many more word lists can be found. A good keyword to google for is *Diceware*.
